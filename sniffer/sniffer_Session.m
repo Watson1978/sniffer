@@ -99,11 +99,11 @@ void swizzling_DTiPhoneSimulatorSession(void)
         call_super(slf, sel, arg1);
     }_WITHBLOCK;
     
-    // KZRMETHOD_SWIZZLING_("DTiPhoneSimulatorSession", "requestStartWithConfig:timeout:error:",
-    //    void, call_super, sel)
-    // ^(id slf, id arg1, double arg2, id *arg3)
-    // {
-    //     NSLog(@"DTiPhoneSimulatorSession requestStartWithConfig:timeout:error: arg1 = %@ arg2 = %f", arg1, arg2);
-    //     call_super(slf, sel, arg1, arg2, arg3);
-    // }_WITHBLOCK;
+    KZRMETHOD_SWIZZLING_("DTiPhoneSimulatorSession", "requestStartWithConfig:timeout:error:",
+       BOOL, call_super, sel)
+    ^(id slf, id arg1, double arg2, id *arg3)
+    {
+        NSLog(@"DTiPhoneSimulatorSession requestStartWithConfig:timeout:error: arg1 = %@, arg2 = %f", arg1, arg2);
+        return call_super(slf, sel, arg1, arg2, arg3);
+    }_WITHBLOCK;
 }
