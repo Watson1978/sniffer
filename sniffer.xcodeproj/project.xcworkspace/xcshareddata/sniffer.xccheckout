@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6BCE539E-7370-4311-BCAE-51447687410E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>sniffer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5A663937708998E173134A720E3FEF8EFA1997CB</key>
+		<string>github.com:hetima/KZRMethodSwizzling.git</string>
+		<key>CF5FB5E15926C3ED3E3F7C5FB347DC4763EC2E4D</key>
+		<string>github.com:Watson1978/sniffer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>sniffer.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5A663937708998E173134A720E3FEF8EFA1997CB</key>
+		<string>../..sniffer/KZRMethodSwizzling/</string>
+		<key>CF5FB5E15926C3ED3E3F7C5FB347DC4763EC2E4D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:Watson1978/sniffer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CF5FB5E15926C3ED3E3F7C5FB347DC4763EC2E4D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5A663937708998E173134A720E3FEF8EFA1997CB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KZRMethodSwizzling</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CF5FB5E15926C3ED3E3F7C5FB347DC4763EC2E4D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>sniffer</string>
+		</dict>
+	</array>
+</dict>
+</plist>

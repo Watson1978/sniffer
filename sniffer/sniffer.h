@@ -4,6 +4,4 @@
 @interface Sniffer : NSObject
 @end
 
-
-
 #endif
