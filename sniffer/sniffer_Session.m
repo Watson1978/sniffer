@@ -68,11 +68,11 @@ void swizzling_DTiPhoneSimulatorSession(void)
     }_WITHBLOCK;
     
     KZRMETHOD_SWIZZLING_("DTiPhoneSimulatorSession", "attachedToTargetWithConfig:error:",
-       void, call_super, sel)
-    ^(id slf, id arg1, id arg2)
+       BOOL, call_super, sel)
+    ^(id slf, id arg1, id *arg2)
     {
-        NSLog(@"DTiPhoneSimulatorSession attachedToTargetWithConfig:error: arg1 = %@, arg2 = %@", arg1, arg2);
-        call_super(slf, sel, arg1);
+        NSLog(@"DTiPhoneSimulatorSession attachedToTargetWithConfig:error: arg1 = %@", arg1);
+        return call_super(slf, sel, arg1);
     }_WITHBLOCK;
     
     KZRMETHOD_SWIZZLING_("DTiPhoneSimulatorSession", "stopLocationSimulation",
