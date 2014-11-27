@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A958801A1A2600BF007A15AC /* sniffer.m in Sources */ = {isa = PBXBuildFile; fileRef = A95880191A2600BF007A15AC /* sniffer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A958800F1A25FF71007A15AC /* sniffer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sniffer.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95880131A25FF71007A15AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A95880191A2600BF007A15AC /* sniffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sniffer.m; sourceTree = "<group>"; };
+		A958801B1A2600E8007A15AC /* sniffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sniffer.h; sourceTree = "<group>"; };
+		A95880401A26080F007A15AC /* CoreSimulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreSimulator.h; sourceTree = "<group>"; };
+		A95880411A26080F007A15AC /* DVTiPhoneSimulatorRemoteClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTiPhoneSimulatorRemoteClient.h; sourceTree = "<group>"; };
+		A9E2FAA31A26D7CD0021D4AD /* KZRMethodSwizzlingWithBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KZRMethodSwizzlingWithBlock.h; path = KZRMethodSwizzling/KZRMethodSwizzlingWithBlock/KZRMethodSwizzlingWithBlock.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A958800C1A25FF71007A15AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A95880061A25FF71007A15AC = {
+			isa = PBXGroup;
+			children = (
+				A95880111A25FF71007A15AC /* sniffer */,
+				A95880101A25FF71007A15AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A95880101A25FF71007A15AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A958800F1A25FF71007A15AC /* sniffer.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A95880111A25FF71007A15AC /* sniffer */ = {
+			isa = PBXGroup;
+			children = (
+				A95880401A26080F007A15AC /* CoreSimulator.h */,
+				A95880411A26080F007A15AC /* DVTiPhoneSimulatorRemoteClient.h */,
+				A9E2FAA31A26D7CD0021D4AD /* KZRMethodSwizzlingWithBlock.h */,
+				A958801B1A2600E8007A15AC /* sniffer.h */,
+				A95880191A2600BF007A15AC /* sniffer.m */,
+				A95880121A25FF71007A15AC /* Supporting Files */,
+			);
+			path = sniffer;
+			sourceTree = "<group>";
+		};
+		A95880121A25FF71007A15AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A95880131A25FF71007A15AC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A958800E1A25FF71007A15AC /* sniffer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A95880161A25FF71007A15AC /* Build configuration list for PBXNativeTarget "sniffer" */;
+			buildPhases = (
+				A958800B1A25FF71007A15AC /* Sources */,
+				A958800C1A25FF71007A15AC /* Frameworks */,
+				A958800D1A25FF71007A15AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sniffer;
+			productName = sniffer;
+			productReference = A958800F1A25FF71007A15AC /* sniffer.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A95880071A25FF71007A15AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Watson;
+				TargetAttributes = {
+					A958800E1A25FF71007A15AC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = A958800A1A25FF71007A15AC /* Build configuration list for PBXProject "sniffer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A95880061A25FF71007A15AC;
+			productRefGroup = A95880101A25FF71007A15AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A958800E1A25FF71007A15AC /* sniffer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A958800D1A25FF71007A15AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A958800B1A25FF71007A15AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A958801A1A2600BF007A15AC /* sniffer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A95880141A25FF71007A15AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A95880151A25FF71007A15AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A95880171A25FF71007A15AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+				);
+				INFOPLIST_FILE = sniffer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks/DVTiPhoneSimulatorRemoteClient.framework/Versions/A",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A95880181A25FF71007A15AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+				);
+				INFOPLIST_FILE = sniffer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks/DVTiPhoneSimulatorRemoteClient.framework/Versions/A",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A958800A1A25FF71007A15AC /* Build configuration list for PBXProject "sniffer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95880141A25FF71007A15AC /* Debug */,
+				A95880151A25FF71007A15AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A95880161A25FF71007A15AC /* Build configuration list for PBXNativeTarget "sniffer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95880171A25FF71007A15AC /* Debug */,
+				A95880181A25FF71007A15AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A95880071A25FF71007A15AC /* Project object */;
+}

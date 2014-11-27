@@ -1,0 +1,3 @@
+[submodule "sniffer/KZRMethodSwizzling"]
+	path = sniffer/KZRMethodSwizzling
+	url = git@github.com:hetima/KZRMethodSwizzling.git
