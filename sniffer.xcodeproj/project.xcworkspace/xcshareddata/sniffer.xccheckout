@@ -20,7 +20,7 @@
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>5A663937708998E173134A720E3FEF8EFA1997CB</key>
-		<string>../..sniffer/KZRMethodSwizzling/</string>
+		<string>../..sniffer/KZRMethodSwizzling</string>
 		<key>CF5FB5E15926C3ED3E3F7C5FB347DC4763EC2E4D</key>
 		<string>../..</string>
 	</dict>

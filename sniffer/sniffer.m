@@ -7,6 +7,7 @@
 #import "KZRMethodSwizzlingWithBlock.h"
 #import "sniffer.h"
 
+void swizzling_DTiPhoneSimulatorApplicationSpecifier(void);
 void swizzling_DTiPhoneSimulatorSessionConfig(void);
 void swizzling_DTiPhoneSimulatorSession(void);
 void swizzling_DVTiPhoneSimulatorMessenger(void);
@@ -16,6 +17,12 @@ void swizzling_DVTiPhoneSimulatorMessenger(void);
 +(void)load
 {
     NSLog(@"+[Sniffer load] was called");
+
+
+    //
+    // DTiPhoneSimulatorApplicationSpecifier
+    //
+    swizzling_DTiPhoneSimulatorApplicationSpecifier();
 
     //
     // DTiPhoneSimulatorSessionConfig

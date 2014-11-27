@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A92409381A27207300438D0D /* sniffer_ApplicationSpecifier.m in Sources */ = {isa = PBXBuildFile; fileRef = A92409371A27207300438D0D /* sniffer_ApplicationSpecifier.m */; };
 		A958801A1A2600BF007A15AC /* sniffer.m in Sources */ = {isa = PBXBuildFile; fileRef = A95880191A2600BF007A15AC /* sniffer.m */; };
 		A9E928EC1A2709D100ED772B /* sniffer_SessionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E928EB1A2709D100ED772B /* sniffer_SessionConfig.m */; };
 		A9E928EE1A270A1400ED772B /* sniffer_Session.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E928ED1A270A1400ED772B /* sniffer_Session.m */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A92409371A27207300438D0D /* sniffer_ApplicationSpecifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sniffer_ApplicationSpecifier.m; sourceTree = "<group>"; };
 		A958800F1A25FF71007A15AC /* sniffer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sniffer.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		A95880131A25FF71007A15AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A95880191A2600BF007A15AC /* sniffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sniffer.m; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				A9E2FAA31A26D7CD0021D4AD /* KZRMethodSwizzlingWithBlock.h */,
 				A958801B1A2600E8007A15AC /* sniffer.h */,
 				A95880191A2600BF007A15AC /* sniffer.m */,
+				A92409371A27207300438D0D /* sniffer_ApplicationSpecifier.m */,
 				A9E928EB1A2709D100ED772B /* sniffer_SessionConfig.m */,
 				A9E928ED1A270A1400ED772B /* sniffer_Session.m */,
 				A9E928EF1A270A6F00ED772B /* sniffer_Messenger.m */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9E928EC1A2709D100ED772B /* sniffer_SessionConfig.m in Sources */,
+				A92409381A27207300438D0D /* sniffer_ApplicationSpecifier.m in Sources */,
 				A958801A1A2600BF007A15AC /* sniffer.m in Sources */,
 				A9E928EE1A270A1400ED772B /* sniffer_Session.m in Sources */,
 				A9E928F01A270A6F00ED772B /* sniffer_Messenger.m in Sources */,

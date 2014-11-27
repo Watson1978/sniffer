@@ -8,7 +8,7 @@
 
 void swizzling_DTiPhoneSimulatorSessionConfig(void)
 {
-// @property
+    // @property
     KZRMETHOD_SWIZZLING_("DTiPhoneSimulatorSessionConfig", "setSimulatedDisplayScale:",
         void, call_super, sel)
     ^(id slf, NSNumber *arg1)
