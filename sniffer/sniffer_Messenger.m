@@ -81,51 +81,51 @@ void swizzling_DVTiPhoneSimulatorMessenger(void)
         call_super(slf, sel, arg1);
     }_WITHBLOCK;
 
-    KZRMETHOD_SWIZZLING_("DVTiPhoneSimulatorMessenger", "spawnToolWithConfig:",
-       id, call_super, sel)
-    ^(id slf, id arg1)
-    {
-        NSLog(@"DVTiPhoneSimulatorMessenger spawnToolWithConfig: arg1 = %@", arg1);
-        id ret = call_super(slf, sel, arg1);
-        NSLog(@"DVTiPhoneSimulatorMessenger return = %@", ret);
-        return ret;
-    }_WITHBLOCK;
+    // KZRMETHOD_SWIZZLING_("DVTiPhoneSimulatorMessenger", "spawnToolWithConfig:",
+    //    id, call_super, sel)
+    // ^(id slf, id arg1)
+    // {
+    //     NSLog(@"DVTiPhoneSimulatorMessenger spawnToolWithConfig: arg1 = %@", arg1);
+    //     id ret = call_super(slf, sel, arg1);
+    //     NSLog(@"DVTiPhoneSimulatorMessenger return = %@", ret);
+    //     return ret;
+    // }_WITHBLOCK;
 
-    KZRMETHOD_SWIZZLING_("DVTiPhoneSimulatorMessenger", "launchApplicationWithConfig:",
-       id, call_super, sel)
-    ^(id slf, id arg1)
-    {
-        NSLog(@"DVTiPhoneSimulatorMessenger launchApplicationWithConfig: arg1 = %@", arg1);
-        id ret = call_super(slf, sel, arg1);
-        NSLog(@"DVTiPhoneSimulatorMessenger return = %@", ret);
-        return ret;
-    }_WITHBLOCK;
+    // KZRMETHOD_SWIZZLING_("DVTiPhoneSimulatorMessenger", "launchApplicationWithConfig:",
+    //    id, call_super, sel)
+    // ^(id slf, id arg1)
+    // {
+    //     NSLog(@"DVTiPhoneSimulatorMessenger launchApplicationWithConfig: arg1 = %@", arg1);
+    //     id ret = call_super(slf, sel, arg1);
+    //     NSLog(@"DVTiPhoneSimulatorMessenger return = %@", ret);
+    //     return ret;
+    // }_WITHBLOCK;
 
-    KZRMETHOD_SWIZZLING_("DVTiPhoneSimulatorMessenger", "installApplicationWithConfig:",
-       id, call_super, sel)
-    ^(id slf, id arg1)
-    {
-        NSLog(@"DVTiPhoneSimulatorMessenger installApplicationWithConfig: arg1 = %@", arg1);
-        id ret = call_super(slf, sel, arg1);
-        NSLog(@"DVTiPhoneSimulatorMessenger return = %@", ret);
-        return ret;
-    }_WITHBLOCK;
+    // KZRMETHOD_SWIZZLING_("DVTiPhoneSimulatorMessenger", "installApplicationWithConfig:",
+    //    id, call_super, sel)
+    // ^(id slf, id arg1)
+    // {
+    //     NSLog(@"DVTiPhoneSimulatorMessenger installApplicationWithConfig: arg1 = %@", arg1);
+    //     id ret = call_super(slf, sel, arg1);
+    //     NSLog(@"DVTiPhoneSimulatorMessenger return = %@", ret);
+    //     return ret;
+    // }_WITHBLOCK;
 
-    KZRMETHOD_SWIZZLING_("DVTiPhoneSimulatorMessenger", "clearAllMessageHandlers",
-       void, call_super, sel)
-    ^(id slf)
-    {
-        NSLog(@"DVTiPhoneSimulatorMessenger clearAllMessageHandlers");
-        call_super(slf, sel);
-    }_WITHBLOCK;
+    // KZRMETHOD_SWIZZLING_("DVTiPhoneSimulatorMessenger", "clearAllMessageHandlers",
+    //    void, call_super, sel)
+    // ^(id slf)
+    // {
+    //     NSLog(@"DVTiPhoneSimulatorMessenger clearAllMessageHandlers");
+    //     call_super(slf, sel);
+    // }_WITHBLOCK;
 
-    KZRMETHOD_SWIZZLING_("DVTiPhoneSimulatorMessenger", "disconnectFromService",
-       void, call_super, sel)
-    ^(id slf)
-    {
-        NSLog(@"DVTiPhoneSimulatorMessenger disconnectFromService");
-        call_super(slf, sel);
-    }_WITHBLOCK;
+    // KZRMETHOD_SWIZZLING_("DVTiPhoneSimulatorMessenger", "disconnectFromService",
+    //    void, call_super, sel)
+    // ^(id slf)
+    // {
+    //     NSLog(@"DVTiPhoneSimulatorMessenger disconnectFromService");
+    //     call_super(slf, sel);
+    // }_WITHBLOCK;
 
     // KZRMETHOD_SWIZZLING_("DVTiPhoneSimulatorMessenger", "initWithSession:",
     //    void, call_super, sel)

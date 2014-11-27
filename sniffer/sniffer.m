@@ -30,7 +30,7 @@ void swizzling_DVTiPhoneSimulatorMessenger(void);
     //
     // DVTiPhoneSimulatorMessenger
     //
-    swizzling_DVTiPhoneSimulatorMessenger();
+    //swizzling_DVTiPhoneSimulatorMessenger();
 }
 
 @end
